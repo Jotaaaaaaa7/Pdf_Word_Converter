@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    restart: unless-stopped
+    command: >
+      /bin/bash -c "
+      echo '=========================================';
+      echo '🚀 La aplicación está disponible en:';
+      echo 'http://localhost:8501/';
+      echo '=========================================';
+      streamlit run main.py --server.port=8501 --server.address=0.0.0.0"
