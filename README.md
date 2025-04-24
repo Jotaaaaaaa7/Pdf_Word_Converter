@@ -1,8 +1,8 @@
 ## PDF - WORD - CONVERTER
-Aplicación para convertir archivos de pdf a word y al revés.
-Permite la conversión y descarga tanto individual como por lotes.
-Visualización previa de los PDF.
-⚠ No hay DB, los archivos subidos desaparecen al recargar la web
+- Aplicación para convertir archivos de pdf a word y al revés.
+- Permite la conversión y descarga tanto individual como por lotes.
+- Visualización previa de los PDF.
+- ⚠ No hay DB, los archivos subidos desaparecen al recargar la web
 
 ### Uso en local:
 
